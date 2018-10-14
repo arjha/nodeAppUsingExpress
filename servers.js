@@ -26,7 +26,7 @@ app.use((req, res, next) => {
 // app.use((req, res, next) => {
 //     res.render('maintinance.hbs');
 // });
-app.use(express.static(path.join(__dirname, '/styles')));
+//app.use(express.static(path.join(__dirname, '/styles')));
 app.use(express.static(__dirname + '/public'));
 
 hbs.registerHelper('getCurrYear', () => {
